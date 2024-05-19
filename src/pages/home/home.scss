@@ -1,0 +1,58 @@
+@import "../../shared/mixin.scss";
+
+.fishImgCard {
+  display: grid;
+  grid-template-columns: repeat(10, minmax(50px, 1fr));
+  justify-items: center;
+  text-align: center;
+
+  @include mobile() {
+    margin: 10px 0px 10px 0px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .fishImgContainer {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    background-color: rgba(255, 255, 255, 0.404);
+    position: relative;
+
+    @include mobile() {
+      width: 80px;
+      height: 80px;
+    }
+
+    .fishImg {
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%) scale(86%);
+      max-width: 100%;
+      max-height: 100%;
+
+      @include mobile() {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%) scale(86%);
+        max-width: 100%;
+        max-height: 100%;
+      }
+    }
+  }
+  .fishImgCardName {
+    font-size: 15px;
+    margin-top: 10px;
+    font-weight: bolder;
+    color: black;
+
+    @include mobile() {
+      font-size: 11px;
+      margin-bottom: 10px;
+    }
+  }
+}

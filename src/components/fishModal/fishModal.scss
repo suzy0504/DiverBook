@@ -1,0 +1,40 @@
+@import "../../shared/mixin.scss";
+
+.modal {
+  position: fixed;
+  top: 0;
+  width: 75%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 15px;
+
+  @include mobile() {
+    position: fixed;
+    top: 0;
+    width: 75%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 15px;
+  }
+
+  .modalContent {
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+    position: relative;
+
+    .CaptureMethod {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+    }
+
+    .cookingUsed {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+    }
+  }
+}
