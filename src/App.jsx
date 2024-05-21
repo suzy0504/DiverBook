@@ -1,25 +1,14 @@
-import "./App.scss";
-import { BrowserRouter, Route, Routes } from "react-router-dom";
+import React from "react";
+import Router from "./shared/Router";
+import { ThemeProvider } from "styled-components";
+import theme from "./shared/theme";
 
-import Home from "./pages/home/Home";
-import Cook from "./pages/cook/Cook";
-
-import Header from "./components/Header/Header";
-
-function App() {
+const App = () => {
   return (
-    <BrowserRouter>
-      <div className="background">
-        <Header />
-        <div>
-          <Routes>
-            <Route path="/" element={<Home />} />
-            <Route path="/Cook" element={<Cook />} />
-          </Routes>
-        </div>
-      </div>
-    </BrowserRouter>
+    <ThemeProvider theme={theme}>
+      <Router />
+    </ThemeProvider>
   );
-}
+};
 
 export default App;

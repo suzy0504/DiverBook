@@ -1,8 +1,0 @@
-//Break Point
-$mobile: 540px;
-
-@mixin mobile {
-  @media screen and (max-width: #{$mobile}) {
-    @content;
-  }
-}
