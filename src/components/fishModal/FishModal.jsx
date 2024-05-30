@@ -1,5 +1,5 @@
 import React from "react";
-import styled from "styled-components";
+import styled, { css } from "styled-components";
 
 const Modal = styled.div`
   position: fixed;
@@ -21,10 +21,138 @@ const Modal = styled.div`
 `;
 
 const ModalContent = styled.div`
-  background-color: white;
-  padding: 20px;
-  border-radius: 10px;
+  padding: 15px;
+  border-radius: 10px -0px 10px 10px;
   position: relative;
+  background: linear-gradient(-135deg, transparent 40px, #71a9db 0);
+`;
+
+const FishImg = styled.div`
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  height: 150px;
+  border-radius: 10px;
+`;
+
+const WitheBox = styled.div`
+  padding: 10px;
+  border-radius: 10px;
+  background: linear-gradient(-135deg, transparent 35px, #ffffff 0);
+`;
+
+const Img = styled.img`
+  max-width: 150px;
+  max-height: 150px;
+`;
+
+const Name = styled.div`
+  font-size: 20px;
+  font-weight: bold;
+`;
+
+const Info = styled.div`
+  margin: 10px;
+  display: flex;
+  text-align: start;
+  font-size: 13px;
+`;
+
+const TextBox = styled.section`
+  display: flex;
+  flex-direction: column;
+  font-size: 12px;
+`;
+
+const MethodGrid = styled.div`
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(2, 1fr);
+`;
+
+const MethodGridName = styled.div`
+  background-color: #71a9db;
+  grid-row: 1 / span 2;
+  border-style: solid;
+  border-color: white;
+  border-width: 0 1px 1px 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+`;
+
+const MethodGridText = styled.div`
+  grid-column: 2 / span 2;
+  align-items: center;
+  justify-content: center;
+
+  ${(props) =>
+    props.$isSingleMethod &&
+    css`
+      grid-row: 1 / span 2;
+    `}
+`;
+
+const MethodText = styled.p`
+  border-style: solid;
+  border-width: 0 1px 0 0;
+  border-color: #71a9db;
+  align-items: center;
+  justify-content: center;
+  padding: 3px;
+`;
+
+const BlueTextBox = styled.div`
+  background-color: #71a9db;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  border-style: solid;
+  border-color: white;
+  border-width: 0 0 1px 0;
+  padding: 3px;
+`;
+
+const Div = styled.div`
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+`;
+
+const LineTextTop = styled.p`
+  border-style: solid;
+  border-width: 1px 1px 1px 0;
+  border-color: #71a9db;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+`;
+
+const LineTextBottom = styled.p`
+  border-style: solid;
+  border-width: 0 1px 0 0;
+  border-color: #71a9db;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+`;
+
+const BlueTextBoxLast = styled.div`
+  background-color: #71a9db;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  height: auto;
+  width: auto;
+`;
+
+const LineTextTopLast = styled.p`
+  border-style: solid;
+  border-width: 1px 1px 1px 0;
+  border-color: #71a9db;
+  align-items: center;
+  justify-content: center;
+  padding: 3px;
 `;
 
 const FishModal = ({ fish, isOpen, isClose }) => {
@@ -55,31 +183,48 @@ const FishModal = ({ fish, isOpen, isClose }) => {
     }
   };
 
+  const isSingleMethod = Object.entries(fish.CaptureMethod).length === 1;
+
+  console.log(Object.entries(fish.CaptureMethod).length);
   return (
     <Modal onClick={isClose}>
       <ModalContent>
-        <div>
-          <img src={fish.image} alt={fish.name} />
-          <div>{fish.name}</div>
-          <div>{fish.fishInfo}</div>
-        </div>
-        <div>살점 무게{fish.weight}</div>
-        <div>활동 시간{fish.activityTime}</div>
-        <div>
-          <p>포획 방식</p>
-          {Object.entries(fish.CaptureMethod).map(([star, method], index) => (
-            <div key={index}>
-              <strong>{star}</strong>
-              <span>{method}</span>
-            </div>
-          ))}
-        </div>
-        <div>
-          <div>
-            <p>사용 요리</p>
-            <div>{renderCookingUsed(fish.cookingUsed)}</div>
-          </div>
-        </div>
+        <WitheBox>
+          <FishImg>
+            <Img src={fish.image} alt={fish.name} />
+          </FishImg>
+          <Name>{fish.name}</Name>
+          <Info>{fish.fishInfo}</Info>
+          <TextBox>
+            <section>
+              <Div>
+                <BlueTextBox>살점 무게</BlueTextBox>
+                <LineTextTop>{fish.weight}</LineTextTop>
+              </Div>
+              <Div>
+                <BlueTextBox>활동 시간</BlueTextBox>
+                <LineTextBottom>{fish.activityTime}</LineTextBottom>
+              </Div>
+            </section>
+            <MethodGrid>
+              <MethodGridName>포획 방식</MethodGridName>
+              {Object.entries(fish.CaptureMethod).map(
+                ([star, method], index) => (
+                  <MethodGridText key={index} $isSingleMethod={isSingleMethod}>
+                    <BlueTextBox>{star}</BlueTextBox>
+                    <MethodText>{method}</MethodText>
+                  </MethodGridText>
+                )
+              )}
+            </MethodGrid>
+            <Div>
+              <BlueTextBoxLast>사용 요리</BlueTextBoxLast>
+              <LineTextTopLast>
+                {renderCookingUsed(fish.cookingUsed)}
+              </LineTextTopLast>
+            </Div>
+          </TextBox>
+        </WitheBox>
       </ModalContent>
     </Modal>
   );

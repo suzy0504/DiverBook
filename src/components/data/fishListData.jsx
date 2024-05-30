@@ -8,7 +8,7 @@ const FishListData = [
     activityTime: "낮",
     CaptureMethod: {
       "★★": "작살 포획",
-      "★★★": "그물 포획\n수면 포획",
+      "★★★": "그물 포획 / 수면 포획",
     },
     cookingUsed: "흰동가리 초밥\n열대어 마늘구이",
     fishInfo:
@@ -22,7 +22,7 @@ const FishListData = [
     activityTime: "낮",
     CaptureMethod: {
       "★★": "작살 포획",
-      "★★★": "그물 포획\n수면 포획",
+      "★★★": "그물 포획 / 수면 포획",
     },
     cookingUsed: "콤버 초밥\n콤버 샌드위치",
     fishInfo:
@@ -36,7 +36,7 @@ const FishListData = [
     activityTime: "낮",
     CaptureMethod: {
       "★★": "작살 포획",
-      "★★★": "그물 포획\n수면 포획",
+      "★★★": "그물 포획 / 수면 포획",
     },
     cookingUsed: "지중해카디널피쉬 초밥",
     fishInfo:
@@ -50,7 +50,7 @@ const FishListData = [
     activityTime: "낮",
     CaptureMethod: {
       "★★": "작살 포획",
-      "★★★": "그물 포획\n수면 포획",
+      "★★★": "그물 포획 / 수면 포획",
     },
     cookingUsed: "금강바리 초밥",
     fishInfo:
@@ -63,7 +63,7 @@ const FishListData = [
     activityTime: "낮",
     CaptureMethod: {
       "★★": "작살 포획",
-      "★★★": "그물 포획\n수면 포획",
+      "★★★": "그물 포획 / 수면 포획",
     },
     cookingUsed: "안개나비고기 초밥\n열대어 마늘구이",
     fishInfo:
@@ -77,7 +77,7 @@ const FishListData = [
     activityTime: "낮",
     CaptureMethod: {
       "★★": "작살 포획",
-      "★★★": "그물 포획\n수면 포획",
+      "★★★": "그물 포획 / 수면 포획",
     },
     cookingUsed: "옐로우탱 초밥",
     fishInfo:
@@ -91,7 +91,7 @@ const FishListData = [
     activityTime: "낮",
     CaptureMethod: {
       "★★": "작살 포획",
-      "★★★": "그물 포획\n수면 포획",
+      "★★★": "그물 포획 / 수면 포획",
     },
     cookingUsed: "사르파살파 초밥",
     fishInfo:
@@ -105,7 +105,7 @@ const FishListData = [
     activityTime: "낮",
     CaptureMethod: {
       "★★": "작살 포획",
-      "★★★": "그물 포획\n수면 포획",
+      "★★★": "그물 포획 / 수면 포획",
     },
     cookingUsed: "원반제비활치 튀김\n활치 오야코동",
     fishInfo:
@@ -118,7 +118,7 @@ const FishListData = [
     activityTime: "낮",
     CaptureMethod: {
       "★★": "작살 포획",
-      "★★★": "그물 포획\n수면 포획",
+      "★★★": "그물 포획 / 수면 포획",
     },
     cookingUsed: "블루탱 초밥\n열대어 마늘구이",
     fishInfo:
@@ -132,7 +132,7 @@ const FishListData = [
     activityTime: "낮",
     CaptureMethod: {
       "★★": "작살 포획",
-      "★★★": "그물 포획\n수면 포획",
+      "★★★": "그물 포획 / 수면 포획",
     },
     cookingUsed: "무지개놀래기 초밥놀래기 커리",
     fishInfo:
@@ -146,7 +146,7 @@ const FishListData = [
     activityTime: "낮",
     CaptureMethod: {
       "★★": "작살 포획",
-      "★★★": "그물 포획\n수면 포획",
+      "★★★": "그물 포획 / 수면 포획",
     },
     cookingUsed: "배주름쥐치 초밥",
     fishInfo:
@@ -160,7 +160,7 @@ const FishListData = [
     activityTime: "낮",
     CaptureMethod: {
       "★★": "작살 포획",
-      "★★★": "그물 포획\n수면 포획",
+      "★★★": "그물 포획 / 수면 포획",
     },
     cookingUsed: "빨판매가리 초밥\n빨판매가리 감태국",
     fishInfo:
@@ -174,7 +174,7 @@ const FishListData = [
     activityTime: "낮",
     CaptureMethod: {
       "★★": "작살 포획",
-      "★★★": "그물 포획\n수면 포획",
+      "★★★": "그물 포획 / 수면 포획",
     },
     cookingUsed: "황등어 초밥\n황등어 간장조림",
     fishInfo:
@@ -188,7 +188,7 @@ const FishListData = [
     activityTime: "낮",
     CaptureMethod: {
       "★★": "작살 포획",
-      "★★★": "그물 포획\n수면 포획",
+      "★★★": "그물 포획 / 수면 포획",
     },
     cookingUsed: "오네이트놀래기 초밥\n놀래기 커리",
     fishInfo:
@@ -202,7 +202,7 @@ const FishListData = [
     activityTime: "낮",
     CaptureMethod: {
       "★★": "작살 포획",
-      "★★★": "그물 포획\n수면 포획",
+      "★★★": "그물 포획 / 수면 포획",
     },
     cookingUsed: "깃털제비활치 초밥\n활치 오야코동",
     fishInfo:
@@ -216,7 +216,7 @@ const FishListData = [
     activityTime: "낮",
     CaptureMethod: {
       "★★": "작살 포획",
-      "★★★": "그물 포획\n수면 포획",
+      "★★★": "그물 포획 / 수면 포획",
     },
     cookingUsed: "지중해비늘돔 초밥\n비늘돔 흑식초 조림",
     fishInfo:
@@ -230,7 +230,7 @@ const FishListData = [
     activityTime: "낮",
     CaptureMethod: {
       "★★": "작살 포획",
-      "★★★": "그물 포획\n수면 포획",
+      "★★★": "그물 포획 / 수면 포획",
     },
     cookingUsed: "붉은이빨쥐치 초밥\n붉은이빨쥐치 소금구이",
     fishInfo:
@@ -244,7 +244,7 @@ const FishListData = [
     activityTime: "낮",
     CaptureMethod: {
       "★★": "작살 포획",
-      "★★★": "그물 포획\n수면 포획",
+      "★★★": "그물 포획 / 수면 포획",
     },
     cookingUsed: "블랙스내퍼 초밥",
     fishInfo:
@@ -270,7 +270,7 @@ const FishListData = [
     weight: "1",
     activityTime: "낮",
     CaptureMethod: {
-      "★★★": "그물 포획\n수면 포획",
+      "★★★": "그물 포획 / 수면 포획",
     },
     cookingUsed: "배럴해파리 군함 초밥\n해파리 무침",
     materials: "배럴해파리의 촉수",
@@ -283,7 +283,7 @@ const FishListData = [
     weight: "1",
     activityTime: "낮",
     CaptureMethod: {
-      "★★★": "그물 포획\n수면 포획",
+      "★★★": "그물 포획 / 수면 포획",
     },
     cookingUsed: "달걀프라이해파리 군함 초밥\n해파리 무침",
     fishInfo:
@@ -315,7 +315,7 @@ const FishListData = [
     activityTime: "낮",
     CaptureMethod: {
       "★★": "작살 포획",
-      "★★★": "그물 포획\n수면 포획",
+      "★★★": "그물 포획 / 수면 포획",
     },
     cookingUsed: "복어 특초밥\n복어 니코고리\n복어 완자탕",
     materials: "꺼끌복의 독주머니",
@@ -330,7 +330,7 @@ const FishListData = [
     activityTime: "낮",
     CaptureMethod: {
       "★★": "작살 포획",
-      "★★★": "그물 포획\n수면 포획",
+      "★★★": "그물 포획 / 수면 포획",
     },
     cookingUsed: "쏠배감펭 초밥\n쏠배감펭 튀김",
     materials: "쏠배감펭의 가시",
@@ -345,7 +345,7 @@ const FishListData = [
     activityTime: "낮",
     CaptureMethod: {
       "★★": "작살 포획",
-      "★★★": "그물 포획\n수면 포획",
+      "★★★": "그물 포획 / 수면 포획",
     },
     cookingUsed: "타이탄트리거피쉬 초밥\n화려한 특초밥 세트",
     fishInfo:
@@ -395,7 +395,7 @@ const FishListData = [
     activityTime: "낮",
     CaptureMethod: {
       "★★": "작살 포획",
-      "★★★": "그물 포획\n수면 포획",
+      "★★★": "그물 포획 / 수면 포획",
     },
     cookingUsed: "라마엔젤피쉬 초밥",
     fishInfo:
@@ -423,7 +423,7 @@ const FishListData = [
     activityTime: "낮",
     CaptureMethod: {
       "★★": "작살 포획",
-      "★★★": "그물 포획\n수면 포획",
+      "★★★": "그물 포획 / 수면 포획",
     },
     cookingUsed: "황제엔젤피쉬 초밥",
     fishInfo:
@@ -480,7 +480,7 @@ const FishListData = [
     activityTime: "낮",
     CaptureMethod: {
       "★★": "작살 포획",
-      "★★★": "그물 포획\n수면 포획",
+      "★★★": "그물 포획 / 수면 포획",
     },
     cookingUsed: "쏠종개 초밥\n쏠종개 파이",
     fishInfo:
@@ -549,7 +549,7 @@ const FishListData = [
     activityTime: "밤",
     CaptureMethod: {
       "★★": "작살 포획",
-      "★★★": "그물 포획\n수면 포획",
+      "★★★": "그물 포획 / 수면 포획",
     },
     cookingUsed: "방사쏠베감펭 초밥\n달빛 블래더랙 롤",
     fishInfo:
@@ -563,7 +563,7 @@ const FishListData = [
     activityTime: "밤",
     CaptureMethod: {
       "★★": "작살 포획",
-      "★★★": "그물 포획\n수면 포획",
+      "★★★": "그물 포획 / 수면 포획",
     },
     cookingUsed: "롱스파인다람쥐고기 초밥\n달빛 블래더랙 롤",
     fishInfo:
@@ -577,7 +577,7 @@ const FishListData = [
     activityTime: "밤",
     CaptureMethod: {
       "★★": "작살 포획",
-      "★★★": "그물 포획\n수면 포획",
+      "★★★": "그물 포획 / 수면 포획",
     },
     cookingUsed: "가시복 껍질 초무침\n복어 완자탕",
     fishInfo:
@@ -590,7 +590,7 @@ const FishListData = [
     weight: "5",
     activityTime: "밤",
     CaptureMethod: {
-      "★★★": "그물 포획\n수면 포획",
+      "★★★": "그물 포획 / 수면 포획",
     },
     cookingUsed: "상자해파리 군함 초밥",
     materials: "상자해파리의 촉수",
@@ -605,7 +605,7 @@ const FishListData = [
     activityTime: "항상",
     CaptureMethod: {
       "★★": "작살 포획",
-      "★★★": "그물 포획\n수면 포획",
+      "★★★": "그물 포획 / 수면 포획",
     },
     cookingUsed: "곰치 초밥\n곰치 커리",
     materials: "곰치의 턱뼈",
@@ -664,7 +664,7 @@ const FishListData = [
     activityTime: "낮",
     CaptureMethod: {
       "★★": "작살 포획",
-      "★★★": "그물 포획\n수면 포획",
+      "★★★": "그물 포획 / 수면 포획",
     },
     cookingUsed: "블루헤드타일피쉬 초밥",
     fishInfo:
@@ -678,7 +678,7 @@ const FishListData = [
     activityTime: "낮",
     CaptureMethod: {
       "★★": "작살 포획",
-      "★★★": "그물 포획\n수면 포획",
+      "★★★": "그물 포획 / 수면 포획",
     },
     cookingUsed: "무당씬벵이 초밥\n다홍빛 생선 롤",
     fishInfo:
@@ -692,7 +692,7 @@ const FishListData = [
     activityTime: "낮",
     CaptureMethod: {
       "★★": "작살 포획",
-      "★★★": "그물 포획\n수면 포획",
+      "★★★": "그물 포획 / 수면 포획",
     },
     cookingUsed: "페인티드콤버 초밥\n콤버 샌드위치",
     fishInfo:
@@ -706,7 +706,7 @@ const FishListData = [
     activityTime: "낮",
     CaptureMethod: {
       "★★": "작살 포획",
-      "★★★": "그물 포획\n수면 포획",
+      "★★★": "그물 포획 / 수면 포획",
     },
     cookingUsed: "새가라지 초밥\n새가라지 된장구이",
     fishInfo:
@@ -720,7 +720,7 @@ const FishListData = [
     activityTime: "낮",
     CaptureMethod: {
       "★★": "작살 포획",
-      "★★★": "그물 포획\n수면 포획",
+      "★★★": "그물 포획 / 수면 포획",
     },
     cookingUsed: "노랑촉수 초밥\n노랑촉수 다시마 말이",
     fishInfo:
@@ -734,7 +734,7 @@ const FishListData = [
     activityTime: "낮",
     CaptureMethod: {
       "★★": "작살 포획",
-      "★★★": "그물 포획\n수면 포획",
+      "★★★": "그물 포획 / 수면 포획",
     },
     cookingUsed: "풀가라지 초밥\n풀가라지 핫도그",
     fishInfo:
@@ -748,7 +748,7 @@ const FishListData = [
     activityTime: "낮",
     CaptureMethod: {
       "★★": "작살 포획",
-      "★★★": "그물 포획\n수면 포획",
+      "★★★": "그물 포획 / 수면 포획",
     },
     cookingUsed: "청줄바리 초밥\n화려한 특초밥 세트",
     fishInfo:
@@ -762,7 +762,7 @@ const FishListData = [
     activityTime: "낮",
     CaptureMethod: {
       "★★": "작살 포획",
-      "★★★": "그물 포획\n수면 포획",
+      "★★★": "그물 포획 / 수면 포획",
     },
     cookingUsed: "줄전갱이 초밥\n전갱이 샌드",
     fishInfo:
@@ -776,7 +776,7 @@ const FishListData = [
     activityTime: "낮",
     CaptureMethod: {
       "★★": "작살 포획",
-      "★★★": "그물 포획\n수면 포획",
+      "★★★": "그물 포획 / 수면 포획",
     },
     cookingUsed: "무늬바리 초밥\n바다포도 무늬바리 회덮밥\n화려한 특초밥 세트",
     fishInfo:
@@ -790,7 +790,7 @@ const FishListData = [
     activityTime: "낮",
     CaptureMethod: {
       "★★": "작살 포획",
-      "★★★": "그물 포획\n수면 포획",
+      "★★★": "그물 포획 / 수면 포획",
     },
     cookingUsed: "갈쥐치 초밥",
     fishInfo:
@@ -804,7 +804,7 @@ const FishListData = [
     activityTime: "낮",
     CaptureMethod: {
       "★★": "작살 포획",
-      "★★★": "그물 포획\n수면 포획",
+      "★★★": "그물 포획 / 수면 포획",
     },
     cookingUsed: "대서양보니토 초밥\n대서양보니토 커리",
     fishInfo:
@@ -818,7 +818,7 @@ const FishListData = [
     activityTime: "낮",
     CaptureMethod: {
       "★★": "작살 포획",
-      "★★★": "그물 포획\n수면 포획",
+      "★★★": "그물 포획 / 수면 포획",
     },
     cookingUsed:
       "흑점줄전갱이 초밥\n다시마 흑점줄갱이 오차즈케\n전갱이 난반즈케",
@@ -833,7 +833,7 @@ const FishListData = [
     activityTime: "낮",
     CaptureMethod: {
       "★★": "작살 포획",
-      "★★★": "그물 포획\n수면 포획",
+      "★★★": "그물 포획 / 수면 포획",
     },
     materials: "갑오징어의 피부조각",
     cookingUsed: "갑오징어 초밥\n갑오징어 어니언링\n삼색오징어 구이",
@@ -848,7 +848,7 @@ const FishListData = [
     activityTime: "낮",
     CaptureMethod: {
       "★★": "작살 포획",
-      "★★★": "그물 포획\n수면 포획",
+      "★★★": "그물 포획 / 수면 포획",
     },
     cookingUsed: "머구리농어 초밥\n머구리농어 스테이크",
     fishInfo:
@@ -862,7 +862,7 @@ const FishListData = [
     activityTime: "낮",
     CaptureMethod: {
       "★★": "작살 포획",
-      "★★★": "그물 포획\n수면 포획",
+      "★★★": "그물 포획 / 수면 포획",
     },
     cookingUsed: "대서양고등어 초밥\n훈테 대서양고등어 스크램블",
     fishInfo:
@@ -906,7 +906,7 @@ const FishListData = [
     activityTime: "낮",
     CaptureMethod: {
       "★★": "작살 포획",
-      "★★★": "강철 그물 포획\n수면 포획",
+      "★★★": "강철 그물 포획 / 수면 포획",
     },
     cookingUsed: "큰꼬치고기 초밥\n큰꼬치고기 카나페",
     fishInfo:
@@ -920,7 +920,7 @@ const FishListData = [
     activityTime: "낮",
     CaptureMethod: {
       "★★": "작살 포획",
-      "★★★": "그물 포획\n수면 포획",
+      "★★★": "그물 포획 / 수면 포획",
     },
     cookingUsed: "동갈삼치 초밥\n동갈삼치 아란치니",
     fishInfo:
@@ -934,7 +934,7 @@ const FishListData = [
     activityTime: "항상",
     CaptureMethod: {
       "★★": "갈무리",
-      "★★★": "강철 그물 포획\n드론 인양",
+      "★★★": "강철 그물 포획 / 드론 인양",
     },
     cookingUsed: "톱상어 초밥",
     fishInfo:
@@ -978,7 +978,7 @@ const FishListData = [
     weight: "1",
     activityTime: "낮",
     CaptureMethod: {
-      "★★★": "그물 포획\n수면 포획",
+      "★★★": "그물 포획 / 수면 포획",
     },
     materials: "흰점박이해파리의 촉수",
     cookingUsed: "흰점박이해파리 군함 초밥\n바다포도 해파리 초밥",
@@ -993,7 +993,7 @@ const FishListData = [
     activityTime: "낮",
     CaptureMethod: {
       "★★": "작살 포획",
-      "★★★": "강철 그물 포획\n수면 포획",
+      "★★★": "강철 그물 포획 / 수면 포획",
     },
     cookingUsed: "대서양아귀 초밥\n히알로네마 아귀찜",
     fishInfo:
@@ -1052,7 +1052,7 @@ const FishListData = [
     activityTime: "밤",
     CaptureMethod: {
       "★★": "작살 포획",
-      "★★★": "그물 포획\n수면 포획",
+      "★★★": "그물 포획 / 수면 포획",
     },
     cookingUsed: "검정핀꼬치고기 초밥\n달빛 블래더랙 롤",
     fishInfo:
@@ -1066,7 +1066,7 @@ const FishListData = [
     activityTime: "밤",
     CaptureMethod: {
       "★★": "작살 포획",
-      "★★★": "그물 포획\n수면 포획",
+      "★★★": "그물 포획 / 수면 포획",
     },
     cookingUsed: "화살오징어 초밥",
     fishInfo:
@@ -1094,7 +1094,7 @@ const FishListData = [
     activityTime: "밤",
     CaptureMethod: {
       "★★": "작살 포획",
-      "★★★": "그물 포획\n수면 포획",
+      "★★★": "그물 포획 / 수면 포획",
     },
     cookingUsed: "데빌스콜피온피쉬 초밥",
     fishInfo:
@@ -1123,7 +1123,7 @@ const FishListData = [
     activityTime: "낮",
     CaptureMethod: {
       "★★": "작살 포획",
-      "★★★": "그물 포획\n수면 포획",
+      "★★★": "그물 포획 / 수면 포획",
     },
     cookingUsed: "귀신고기 초밥\n하바네로 귀신고기 튀김",
     fishInfo:
@@ -1210,7 +1210,7 @@ const FishListData = [
     activityTime: "낮",
     CaptureMethod: {
       "★★": "작살 포획",
-      "★★★": "강철 그물 포획\n수면 포획",
+      "★★★": "강철 그물 포획 / 수면 포획",
     },
     cookingUsed: "쿠키커터상어 초밥\n심해어 덴뿌라",
     fishInfo:
@@ -1237,7 +1237,7 @@ const FishListData = [
     activityTime: "낮",
     CaptureMethod: {
       "★★": "작살 포획",
-      "★★★": "그물 포획\n수면 포획",
+      "★★★": "그물 포획 / 수면 포획",
     },
     cookingUsed: "점씬벵이 초밥\n점씬벵이 오이 군함 초밥",
     fishInfo:
@@ -1251,7 +1251,7 @@ const FishListData = [
     activityTime: "낮",
     CaptureMethod: {
       "★★": "작살 포획",
-      "★★★": "그물 포획\n수면 포획",
+      "★★★": "그물 포획 / 수면 포획",
     },
     cookingUsed: "분홍꼼치 초밥\n토마토 꼼치 볶음",
     fishInfo:
@@ -1265,7 +1265,7 @@ const FishListData = [
     activityTime: "낮",
     CaptureMethod: {
       "★★": "작살 포획",
-      "★★★": "그물 포획\n수면 포획",
+      "★★★": "그물 포획 / 수면 포획",
     },
     cookingUsed: "벤텐어 초밥",
     fishInfo:
@@ -1279,7 +1279,7 @@ const FishListData = [
     activityTime: "낮",
     CaptureMethod: {
       "★★": "작살 포획",
-      "★★★": "그물 포획\n수면 포획",
+      "★★★": "그물 포획 / 수면 포획",
     },
     cookingUsed: "불뚝복 초밥",
     fishInfo:
@@ -1292,7 +1292,7 @@ const FishListData = [
     weight: "7",
     activityTime: "낮",
     CaptureMethod: {
-      "★★★": "그물 포획\n수면 포획",
+      "★★★": "그물 포획 / 수면 포획",
     },
     materials: "감투빗해파리의 발전기관",
     cookingUsed: "감투빗해파리 초밥",
@@ -1306,7 +1306,7 @@ const FishListData = [
     weight: "7",
     activityTime: "낮",
     CaptureMethod: {
-      "★★★": "그물 포획\n수면 포획",
+      "★★★": "그물 포획 / 수면 포획",
     },
     cookingUsed: "붉은배빗해파리 초밥",
     fishInfo:
@@ -1320,7 +1320,7 @@ const FishListData = [
     activityTime: "낮",
     CaptureMethod: {
       "★★": "작살 포획",
-      "★★★": "그물 포획\n수면 포획",
+      "★★★": "그물 포획 / 수면 포획",
     },
     cookingUsed: "금눈돔 초밥\n다홍빛 생선 롤",
     fishInfo:
@@ -1336,7 +1336,7 @@ const FishListData = [
     activityTime: "낮",
     CaptureMethod: {
       "★★": "작살 포획",
-      "★★★": "그물 포획\n수면 포획",
+      "★★★": "그물 포획 / 수면 포획",
     },
     cookingUsed: "공작오징어 초밥\n공작오징어 리피에니\n삼색오징어 구이",
     fishInfo:
@@ -1350,7 +1350,7 @@ const FishListData = [
     activityTime: "낮",
     CaptureMethod: {
       "★★": "작살 포획",
-      "★★★": "그물 포획\n수면 포획",
+      "★★★": "그물 포획 / 수면 포획",
     },
     cookingUsed: "덤보문어 초밥\n덤보문어 타코야끼",
     fishInfo:
@@ -1364,7 +1364,7 @@ const FishListData = [
     activityTime: "낮",
     CaptureMethod: {
       "★★": "작살 포획",
-      "★★★": "그물 포획\n수면 포획",
+      "★★★": "그물 포획 / 수면 포획",
     },
     cookingUsed: "배럴아이 초밥\n심해어 덴뿌라",
     fishInfo:
@@ -1378,7 +1378,7 @@ const FishListData = [
     activityTime: "낮",
     CaptureMethod: {
       "★★": "작살 포획",
-      "★★★": "그물 포획\n수면 포획",
+      "★★★": "그물 포획 / 수면 포획",
     },
     cookingUsed: "블롭피쉬 초밥\n블롭피쉬 춘권",
     fishInfo:
@@ -1392,7 +1392,7 @@ const FishListData = [
     activityTime: "낮",
     CaptureMethod: {
       "★★": "작살 포획",
-      "★★★": "그물 포획\n수면 포획",
+      "★★★": "그물 포획 / 수면 포획",
     },
     materials: "흡혈오징어의 다리",
     cookingUsed: "흡혈오징어 초밥\n심해어 덴뿌라\n삼색오징어 구이",
@@ -1407,7 +1407,7 @@ const FishListData = [
     activityTime: "낮",
     CaptureMethod: {
       "★★": "작살 포획",
-      "★★★": "강철 그물 포획\n수면 포획",
+      "★★★": "강철 그물 포획 / 수면 포획",
     },
     materials: "펠리칸장어의 가죽",
     cookingUsed: "펠리칸장어 초밥\n펠리칸장어 젤리",
@@ -1424,7 +1424,7 @@ const FishListData = [
     activityTime: "낮",
     CaptureMethod: {
       "★★": "작살 포획",
-      "★★★": "그물 포획\n수면 포획",
+      "★★★": "그물 포획 / 수면 포획",
     },
     cookingUsed: "극지대구 초밥\n극지대구 리조토",
     fishInfo:
@@ -1438,7 +1438,7 @@ const FishListData = [
     activityTime: "낮",
     CaptureMethod: {
       "★★": "작살 포획",
-      "★★★": "그물 포획\n수면 포획",
+      "★★★": "그물 포획 / 수면 포획",
     },
     cookingUsed: "남극꼼치 초밥\n토마토 꼼치 볶음",
     fishInfo:
@@ -1452,7 +1452,7 @@ const FishListData = [
     activityTime: "낮",
     CaptureMethod: {
       "★★": "작살 포획",
-      "★★★": "그물 포획\n수면 포획",
+      "★★★": "그물 포획 / 수면 포획",
     },
     cookingUsed: "남극문어 초밥\n남극문어 카르파초\n트러플 남극문어 구이",
     fishInfo:
@@ -1481,7 +1481,7 @@ const FishListData = [
     activityTime: "낮",
     CaptureMethod: {
       "★★": "작살 포획",
-      "★★★": "그물 포획\n수면 포획",
+      "★★★": "그물 포획 / 수면 포획",
     },
     cookingUsed: "북극등가시치 초밥",
     fishInfo:
@@ -1510,7 +1510,7 @@ const FishListData = [
     activityTime: "낮",
     CaptureMethod: {
       "★★": "작살 포획",
-      "★★★": "그물 포획\n수면 포획",
+      "★★★": "그물 포획 / 수면 포획",
     },
     cookingUsed: "아이스피쉬 초밥\n아이스피쉬 커리",
     fishInfo:
@@ -1524,7 +1524,7 @@ const FishListData = [
     activityTime: "낮",
     CaptureMethod: {
       "★★": "작살 포획",
-      "★★★": "그물 포획\n수면 포획",
+      "★★★": "그물 포획 / 수면 포획",
     },
     cookingUsed: "열빙어 초밥\n열빙어 구이",
     fishInfo:
@@ -1553,7 +1553,7 @@ const FishListData = [
     activityTime: "낮",
     CaptureMethod: {
       "★★": "작살 포획",
-      "★★★": "그물 포획\n수면 포획",
+      "★★★": "그물 포획 / 수면 포획",
     },
     cookingUsed: "해덕대구 초밥\n해덕대구 아쿠아파짜",
     fishInfo:
@@ -1596,7 +1596,7 @@ const FishListData = [
     activityTime: "낮",
     CaptureMethod: {
       "★★": "작살 포획",
-      "★★★": "그물 포획\n수면 포획",
+      "★★★": "그물 포획 / 수면 포획",
     },
     cookingUsed: "북극 망원경 물고기 초밥",
     fishInfo:
@@ -1610,7 +1610,7 @@ const FishListData = [
     activityTime: "낮",
     CaptureMethod: {
       "★★": "작살 포획",
-      "★★★": "그물 포획\n수면 포획",
+      "★★★": "그물 포획 / 수면 포획",
     },
     cookingUsed: "알래스카 명태 초밥",
     fishInfo:
@@ -1624,7 +1624,7 @@ const FishListData = [
     activityTime: "낮",
     CaptureMethod: {
       "★★": "작살 포획",
-      "★★★": "그물 포획\n수면 포획",
+      "★★★": "그물 포획 / 수면 포획",
     },
     cookingUsed: "럼프피쉬 초밥",
     fishInfo:
@@ -1638,7 +1638,7 @@ const FishListData = [
     activityTime: "낮",
     CaptureMethod: {
       "★★": "작살 포획",
-      "★★★": "강철 그물 포획\n수면 포획",
+      "★★★": "강철 그물 포획 / 수면 포획",
     },
     cookingUsed: "들창코가시장어 초밥\n하바네로 장어 구이",
     fishInfo:
@@ -1667,7 +1667,7 @@ const FishListData = [
     activityTime: "낮",
     CaptureMethod: {
       "★★": "작살 포획",
-      "★★★": "그물 포획\n수면 포획",
+      "★★★": "그물 포획 / 수면 포획",
     },
     cookingUsed: "피카이아 초밥\n피카이아 라멘",
     fishInfo:
@@ -1681,7 +1681,7 @@ const FishListData = [
     activityTime: "낮",
     CaptureMethod: {
       "★★": "작살 포획",
-      "★★★": "그물 포획\n수면 포획",
+      "★★★": "그물 포획 / 수면 포획",
     },
     cookingUsed: "알레니프테루스 초밥",
     fishInfo:
@@ -1695,7 +1695,7 @@ const FishListData = [
     activityTime: "낮",
     CaptureMethod: {
       "★★": "작살 포획",
-      "★★★": "그물 포획\n수면 포획",
+      "★★★": "그물 포획 / 수면 포획",
     },
     cookingUsed: "칭멘도스 초밥",
     fishInfo:
@@ -1709,7 +1709,7 @@ const FishListData = [
     activityTime: "낮",
     CaptureMethod: {
       "★★": "작살 포획",
-      "★★★": "그물 포획\n수면 포획",
+      "★★★": "그물 포획 / 수면 포획",
     },
     cookingUsed: "팔카투스 초밥\n팔카투스 된장국",
     fishInfo:
@@ -1768,7 +1768,7 @@ const FishListData = [
     weight: "8",
     activityTime: "낮",
     CaptureMethod: {
-      "★★★": "그물 포획\n수면 포획",
+      "★★★": "그물 포획 / 수면 포획",
     },
     cookingUsed: "메갈로그랍투스 초밥",
     fishInfo:
