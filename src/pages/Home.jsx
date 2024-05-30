@@ -23,7 +23,6 @@ const FishImgContainer = styled.div`
   height: 100px;
   border-radius: 50%;
   background-color: rgba(255, 255, 255, 0.404);
-  position: relative;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -35,17 +34,21 @@ const FishImgContainer = styled.div`
   }
 `;
 const FishImg = styled.div`
-  max-width: 100%;
-  max-height: 100%;
   display: flex;
 
   @media ${(props) => props.theme.mobile} {
-    max-width: 80%;
-    max-height: 80%;
-    display: flex;
+    width: 60px;
+    height: 60px;
+    justify-content: center;
     align-items: center;
-    justify-items: center;
-    object-fit: contain;
+  }
+`;
+
+const FishImgFile = styled.img`
+  display: flex;
+  @media ${(props) => props.theme.mobile} {
+    max-width: 100%;
+    max-height: 100%;
   }
 `;
 
@@ -81,7 +84,7 @@ const Home = () => {
         <div key={index} onClick={() => openModal(fish)}>
           <FishImgContainer>
             <FishImg>
-              <img src={fish.image} alt={fish.name} />
+              <FishImgFile src={fish.image} alt={fish.name} />
             </FishImg>
           </FishImgContainer>
           <FishImgCardName>{fish.name}</FishImgCardName>

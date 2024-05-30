@@ -1,5 +1,23 @@
 import React from "react";
-import "./fishModal.scss";
+import styled from "styled-components";
+
+const Modal = styled.div`
+  position: fixed;
+  top: 0;
+  width: 75%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 15px;
+`;
+
+const ModalContent = styled.div`
+  background-color: white;
+  padding: 20px;
+  border-radius: 10px;
+  position: relative;
+`;
 
 const FishModal = ({ fish, isOpen, isClose }) => {
   if (!isOpen) return null;
@@ -30,8 +48,8 @@ const FishModal = ({ fish, isOpen, isClose }) => {
   };
 
   return (
-    <div className="modal" onClick={isClose}>
-      <div className="modalContent">
+    <Modal onClick={isClose}>
+      <ModalContent>
         <div>
           <img src={fish.image} alt={fish.name} />
           <div>{fish.name}</div>
@@ -42,20 +60,20 @@ const FishModal = ({ fish, isOpen, isClose }) => {
         <div>
           <p>포획 방식</p>
           {Object.entries(fish.CaptureMethod).map(([star, method], index) => (
-            <div className="CaptureMethod" key={index}>
+            <div key={index}>
               <strong>{star}</strong>
               <span>{method}</span>
             </div>
           ))}
         </div>
         <div>
-          <div className="cookingUsed">
+          <div>
             <p>사용 요리</p>
             <div>{renderCookingUsed(fish.cookingUsed)}</div>
           </div>
         </div>
-      </div>
-    </div>
+      </ModalContent>
+    </Modal>
   );
 };
 
