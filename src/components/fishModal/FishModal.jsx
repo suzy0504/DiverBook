@@ -3,13 +3,21 @@ import styled from "styled-components";
 
 const Modal = styled.div`
   position: fixed;
-  top: 0;
+  top: 50%;
   width: 75%;
   height: 100%;
   display: flex;
   justify-content: center;
   align-items: center;
   font-size: 15px;
+  left: 50%;
+  transform: translateX(-50%) translateY(-50%);
+
+  @media ${(props) => props.theme.mobile} {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
 `;
 
 const ModalContent = styled.div`
